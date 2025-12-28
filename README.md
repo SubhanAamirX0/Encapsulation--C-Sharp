@@ -113,10 +113,10 @@ There is another way to implement encapsulation by using the properties (set and
 
 ## Advantages
 
-- *Data Protection*: Prevents unauthorized access to fields.
-- *Controlled Access*: Exposes only required operations.
-- *Code Flexibility*: Internal implementation can change without affecting external code.
-- *Maintainability*: Reduces coupling between classes.
+- **Data Protection**: Prevents unauthorized access to fields.
+- **Controlled Access**: Exposes only required operations.
+- **Code Flexibility**: Internal implementation can change without affecting external code.
+- **Maintainability**: Reduces coupling between classes.
 
 ## Disadvantages
 - Using getters and setters adds extra code compared to accessing fields directly.
