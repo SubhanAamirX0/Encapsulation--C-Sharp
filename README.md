@@ -35,6 +35,10 @@ Private access specifier allows a class to hide its member variables and member 
 - The value can only be accessed through the **_public_** method **"ShowMarks()."**
 - Direct access like **"student.marks"** = 100 is not allowed.
 
+#### Output
+
+<img width="110" height="36" alt="Privateoutput" src="https://github.com/user-attachments/assets/01b28dc3-93e8-4ae0-a94c-23dda1ffa6b0" />
+
 
 ### "Protected" Access Modifier
 
@@ -42,11 +46,34 @@ Protected access specifier allows a child class to access the member variables a
 
 #### Example
 
+<img width="367" height="333" alt="ProtectedExample" src="https://github.com/user-attachments/assets/1a0abbcf-043e-45d6-9cf0-0a7fbb16356a" />
+
+#### Explanation
+
+- The variable **"accountType"** is marked as **_protected_**.
+- It cannot be accessed from **"Main()"**.
+- It can be accessed inside the derived class **"PremiumAccount"**.
+
+#### Output
+
+<img width="100" height="35" alt="Protected output" src="https://github.com/user-attachments/assets/cb993e33-9c54-4504-98c2-b4e2ca5a852e" />
+
 ###  "Internal" Access Modifier
 
 Internal access specifier allows a class to expose its member variables and member functions to other functions and objects in the current assembly. In other words, any member with internal access specifier can be accessed from any class or method defined within the application in which the member is defined.
 
 #### Example
+
+<img width="353" height="241" alt="InternalExample" src="https://github.com/user-attachments/assets/c6bde68f-3ac7-49c4-8c97-829af24dcc40" />
+
+#### Explanation
+
+- The variable **"bankName"** is accessible anywhere within the same project.
+- It cannot be accessed from another project or assembly.
+
+#### Output
+
+<img width="148" height="38" alt="Internal output" src="https://github.com/user-attachments/assets/3bac3056-75e5-4ff3-810f-c1ba1c722b2d" />
 
 ###  "Internal Protected" Access Modifier 
 
@@ -54,11 +81,34 @@ The protected internal access specifier allows a class to hide its member variab
 
 #### Example
 
+<img width="410" height="367" alt="ProtectedInternalExample" src="https://github.com/user-attachments/assets/c168583c-4324-42ec-89de-c09b6c911450" />
+
+#### Explanation
+
+- The variable can be accessed:
+   - Anywhere in the **"same"** project
+   - In **"derived"** classes (even outside the project)
+
+
+#### Output
+
+<img width="186" height="57" alt="ProtectedInternaloutput" src="https://github.com/user-attachments/assets/d2033007-0f69-42d9-8a2c-f6cc7c3b5ff6" />
 
 ## Encapsulation Using *"Properties"*
 There is another way to implement encapsulation by using the properties (set and get).
 
 #### Example
+
+<img width="380" height="380" alt="GetSetExample" src="https://github.com/user-attachments/assets/e090fe9b-2dda-492a-b89b-640b9fc10be4" />
+
+#### Explanation
+- The field **"age"** is kept **_private_**.
+- The property **"Age"** provides controlled access.
+- Validation ensures invalid values are rejected.
+
+#### Output
+
+<img width="158" height="54" alt="GetSetoutput" src="https://github.com/user-attachments/assets/7670472b-7094-40f4-a10e-cb2646c9173a" />
 
 ## Advantages
 
