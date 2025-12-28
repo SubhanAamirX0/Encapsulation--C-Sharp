@@ -37,7 +37,7 @@ Private access specifier allows a class to hide its member variables and member 
 
 #### Output
 
-<img width="110" height="36" alt="Privateoutput" src="https://github.com/user-attachments/assets/01b28dc3-93e8-4ae0-a94c-23dda1ffa6b0" />
+<img width="110" height="36" alt="Private Output" src="https://github.com/user-attachments/assets/01b28dc3-93e8-4ae0-a94c-23dda1ffa6b0" />
 
 
 ### "Protected" Access Modifier
@@ -46,7 +46,8 @@ Protected access specifier allows a child class to access the member variables a
 
 #### Example
 
-<img width="367" height="333" alt="ProtectedExample" src="https://github.com/user-attachments/assets/1a0abbcf-043e-45d6-9cf0-0a7fbb16356a" />
+<img width="374" height="332" alt="Protected Example" src="https://github.com/user-attachments/assets/14d86c73-7549-4a83-aa7c-61e2fe9c2da8" />
+
 
 #### Explanation
 
@@ -56,7 +57,7 @@ Protected access specifier allows a child class to access the member variables a
 
 #### Output
 
-<img width="100" height="35" alt="Protected output" src="https://github.com/user-attachments/assets/cb993e33-9c54-4504-98c2-b4e2ca5a852e" />
+<img width="100" height="35" alt="Protected Output" src="https://github.com/user-attachments/assets/cb993e33-9c54-4504-98c2-b4e2ca5a852e" />
 
 ###  "Internal" Access Modifier
 
