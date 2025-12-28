@@ -6,7 +6,7 @@ My class project, which involves my first ever code push on github along with a 
 
 The meaning of Encapsulation, is to make sure that *"sensitive data"* is hidden from users. It refers to the practice of binding data (fields) and the methods that operate on that data into a single unit, while *restricting* direct access to some components. This ensures controlled interaction with an object’s internal state. To achieve this, we need to follow the following steps:
 
--	Data members are declared *"private"*, *"protected"*, *internal"* and *"protected internal"*.
+-	Data members are declared **"private"**, **"protected"**, **"internal"** and **"protected internal"**.
 -	Access is provided through **public methods**
 
 This ensures data security and controlled modification.
