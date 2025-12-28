@@ -11,6 +11,7 @@ The meaning of Encapsulation, is to make sure that *"sensitive data"* is hidden 
 
 This ensures data security and controlled modification.
 
+
 ## Key Concepts
 
 -	Encapsulation hides the internal representation of an object and exposes the necessary operations.
@@ -25,6 +26,15 @@ This ensures data security and controlled modification.
 Private access specifier allows a class to hide its member variables and member functions from other functions and objects. Only functions of the same class can access its private members. Even an instance of a class cannot access its private members.
 
 #### Example
+
+<img width="367" height="333" alt="PrivateExample" src="https://github.com/user-attachments/assets/02b07928-5cf9-48ef-bde5-567c34d11443" />
+
+#### Explanation
+
+- **"marks"** is declared as **_private_**, so it is <ins>**hidden**</ins> from outside classes.
+- The value can only be accessed through the **_public_** method **"ShowMarks()."**
+- Direct access like **"student.marks"** = 100 is not allowed.
+
 
 ### "Protected" Access Modifier
 
