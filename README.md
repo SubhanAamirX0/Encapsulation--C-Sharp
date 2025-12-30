@@ -42,7 +42,7 @@ Private access specifier allows a class to hide its member variables and member 
 
 ### "Protected" Access Modifier
 
-Protected access specifier allows a child class to access the member variables and member functions of its base class. This way it helps in implementing inheritance. We will discuss this in more details in the inheritance chapter.
+Protected access specifier allows a child class to access the member variables and member functions of its base class. This way it helps in implementing inheritance.
 
 #### Example
 
